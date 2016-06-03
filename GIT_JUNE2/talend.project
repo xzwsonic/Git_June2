@@ -232,7 +232,6 @@
     <migrationTask xmi:id="_l0CCsCliEeae65RZY3v5PA" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_l0CCsSliEeae65RZY3v5PA" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_l0CCsiliEeae65RZY3v5PA" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_l0CCsyliEeae65RZY3v5PA" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_l0CCtCliEeae65RZY3v5PA" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_l0CCtSliEeae65RZY3v5PA" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="ok"/>
     <migrationTask xmi:id="_l0CCtiliEeae65RZY3v5PA" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -416,6 +415,9 @@
     <migrationTask xmi:id="_l0CDaCliEeae65RZY3v5PA" id="org.talend.repository.routelets.migration.RouteletProcessTypeMigrationTask" breaks="6.1.0" version="6.1.1" status="noimpact"/>
     <migrationTask xmi:id="_l0CDaSliEeae65RZY3v5PA" id="org.talend.repository.model.migration.AddContextCommentValueMigrationTask" breaks="6.1.0" version="6.1.2" status="noimpact"/>
     <migrationTask xmi:id="_l0CDailiEeae65RZY3v5PA" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="__dVbQClmEeaJvc792RKEhw" id="org.talend.mdm.repository.core.migrate.UpdateViewObjectPathMT" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="__dVbQSlmEeaJvc792RKEhw" id="org.talend.mdm.repository.core.migrate.UpdateProcessObjectPathMT" breaks="5.1.1" version="5.1.2" status="ok"/>
+    <migrationTask xmi:id="__dVbQilmEeaJvc792RKEhw" id="org.talend.mdm.repository.core.migrate.RemoveRefNameMT" breaks="6.0.0" version="6.0.0" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_lJ5ggiliEeae65RZY3v5PA" login="user@talend.com" firstName="user" lastName="talend" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_ljtHoCliEeae65RZY3v5PA" login="user2@talend.com" firstName="user2" lastName="talend2" type="DI" additionnalData="{}"/>

@@ -322,3 +322,7 @@
  * Task [AddContextCommentValueMigrationTask] : Nothing to do
  * Task [AutoUpdateRelationsMigrationTask] : Nothing to do
  ---=== End of migration ===---
+ ---=== Start Migration of project Git-June2 ===---
+ * Task [Update MDM View Objects] : Applied successfully
+ * Task [Update MDM Process Objects] : Applied successfully
+ * Task [Remove MDM Reference Item Name] : Nothing to do
